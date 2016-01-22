@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+<meta name="description" content="Bonsai Payments make it easy for you to get paid on time.  Request the client fills a secure third-party account before you start work or hand over a deliverable."/>
+<meta name="keywords" content="freelance payments, getting paid, freelance money, contractor payments, freelance accept payments online, easy payments, milestone payments, freelancing, " />
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <meta property="og:image" content="https://www.hellobonsai.com/assets/social-graphic-a633a7b32d94cd6523734e1a60d5b9be.jpg"/>
+
+    <link rel="stylesheet" media="all" href="challenge4.css" data-turbolinks-track="true" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="oXfFzw+vPGTxetxVxooc0g3vZwlHfG/3SrKBHP9LUAIilRnnTNd8Ca1A42I3f0YPI9E4g9Os0apgny6YLGrUaQ==" />
+
+
+
+      <!-- Google webmaster tools -->
+<meta name="google-site-verification" content="pRe6OPD4OpiNIm2pbXfOqdNpN8gZnKpBC6PrVKz-fjg" />
+<!-- Bing webmaster tools -->
+<meta name="msvalidate.01" content="7D61FB3384CBBEA7FA82BCA577F4C53B" />
+      <!-- Accomplice TPX -->
+
+  </head>
+  <body
+    data-user-signed-in="false"
+    data-user-is-admin="false"
+    data-agreement-type=""
+    data-split-campaign="homepage_cta"
+    data-split-variation="teaser_sample_agreement"
+    >
+    <div id="outer-wrapper"  class="ghost">
+        <nav class="ghost" id="navigation">
+  <div class="clearfix">
+    <a class="navigation-brand white" href="/">
+      <img class="navigation-brand-icon" src="/challenge4/images/logo-icon-white.png" alt="Logo icon white" />
+      <span class="hidden-xs">Bonsai</span>
+</a>      <div class="navigation-ghost-right clearfix">
+        <a class="navigation-item white" id="navigation-signup-link" href="/users/sign_up">
+          Sign up
+</a>        <a class="navigation-item white" id="navigation-login-link" href="/users/sign_in">
+          Login
+</a>      </div>
+  </div>
+</nav>
+
+<div data-controller="WelcomePaymentsController" data-payments-landing-page>
+  <section class="planding-banner">
+    <div class="planding-banner-in">
+      <h1 class="planding-banner-title">
+        Simple & Beautiful Payments for Freelancers
+      </h1>
+      <div class="planding-banner-subtitle">
+        Get paid on time, every time.
+      </div>
+      <div class="planding-banner-cta">
+          <a class="btn btn-white-primary btn-md" id="payments-create-account-top" data-toggle="modal" data-target="#modal-create-account" href="javascript:void(0);">CREATE A FREE ACCOUNT</a>
+      </div>
+    </div>
+    <div class="planding-banner-graphic"></div>
+  </section>
+    <section class="planding-main-points">
+      <div class="relative row">
+        <div class="col-sm-4">
+          <div class="planding-main-point">
+            <img class="./<img class="planding-main-point-icon" alt="simple freelance payments" alt="simple freelance payments" src="/challenge4/images/payments-calendar-icon.svg" />
+            <h3 class="planding-main-point-title">
+              Quick
+            </h3>
+            <div class="planding-main-point-copy">
+              to create, send, and pay invoices
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="planding-main-point">
+            <img class="planding-main-point-icon" alt="freelance payments with reminder emails &amp; digital invoices" src="/challenge4/images/payments-mail-icon.svg" />
+            <h3 class="planding-main-point-title">
+              Beautiful
+            </h3>
+            <div class="planding-main-point-copy">
+              process for the freelancer and client
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="planding-main-point last">
+            <img class="planding-main-point-icon" alt="simple freelance payments accepting multiple payment methods" src="/challenge4/images/payments-methods-icon.svg" />
+            <h3 class="planding-main-point-title">
+              Secure
+            </h3>
+            <div class="planding-main-point-copy">
+              payments and quick disbursement
+            </div>
+          </div>
+        </div>
+        <div class="planding-main-divider1"></div>
+        <div class="planding-main-divider2"></div>
+      </div>
+    </section>
+
+    <section class="planding-pricing-section">
+      <div class="clearfix">
+        <div class="planding-top-text">
+          Simple pricing:<br>Pay when you get paid
+        </div>
+        <div class="planding-pricing-dollar">
+          $1
+        </div>
+        <div class="planding-pricing-dollar planding-pricing-dollar-text">
+          <p id="planding-pricing-dollar-details-top">
+            per paid invoice
+          </p>
+          <p id="planding-pricing-dollar-details-bottom">
+            + 2.9% & 30¢ transaction fee
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="planding-notes-section">
+      <div class="clearfix">
+        <div class="planding-notes-text">
+          <p>Credit cards supported now. ACH coming soon!</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="planding-feature-panel">
+      <div class="planding-feature-panel-bg left planding-agreements-feature">
+      </div>
+      <div class="planding-welcome-wrapper">
+        <img class="planding-feature-panel-graphic-img left" alt="freelance designer freelance developer contract template" src="/challenge4/images/welcome-invoices-graphic-1.png" />
+        <div class="planding-feature-panel-content right">
+          <div class="planding-feature-panel-content-in">
+            <h2 class="planding-feature-panel-header">
+              Integrates deeply with<br>Bonsai Contracts
+            </h2>
+            <div class="planding-feature-panel-copy">
+              <p>
+                Increase your payment rate with Bonsai Contracts: free bulletproof work contracts that are easy to create & e-sign.
+              </p>
+              <p>
+                Once the contract is signed, generate a payment schedule with one click. <i>Contracts are optional but recommended.</i>
+              </p>
+<!--               <p class="planding-feature-panel-pricing">
+                <span class="highlight">Completely free, forever!</span>
+              </p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="planding-feature-panel">
+      <div class="planding-feature-panel-bg right planding-escrow-feature">
+      </div>
+      <div class="planding-welcome-wrapper">
+        <img class="planding-feature-panel-graphic-img right" alt="freelancer payments and escrow" src="/challenge4/images/welcome-invoices-graphic-2.png" />
+        <div class="planding-feature-panel-content left">
+          <div class="planding-feature-panel-content-in">
+            <h2 class="planding-feature-panel-header">
+              Send & get paid with<br>beautiful invoices
+            </h2>
+            <div class="planding-feature-panel-copy">
+              <p>
+                Create invoices and request payment with the click of a button. Customize them to your brand, then send via email or URL.
+              </p>
+              <p>
+                Clients can pay quickly and securely via credit card. <i>ACH is coming soon.</i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="planding-feature-panel">
+      <div class="planding-feature-panel-bg left planding-agreements-feature">
+      </div>
+      <div class="planding-welcome-wrapper">
+        <img class="planding-feature-panel-graphic-img left" alt="freelance designer freelance developer contract template" src=" /challenge4/images/welcome-invoices-graphic-3.png " />
+        <div class="planding-feature-panel-content right">
+          <div class="planding-feature-panel-content-in">
+            <h2 class="planding-feature-panel-header">
+              Get paid on time<br>with SmartPay
+            </h2>
+            <div class="planding-feature-panel-copy">
+              <p>
+                Escrow-like deposits, smart reminders, soft collections, and much more background magic ensure you're paid on time.
+              </p>
+              <p>
+                Focus on the work you love, not on chasing money. <i>Currently in private beta.</i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  <section class="planding-bottom-cta">
+    <div class="">
+        <h3 class="planding-bottom-cta-header">
+          Ready to freelance like a pro?<br>Sign up here &amp; get 5 <b>FREE</b> invoices.
+        </h3>
+        <div class="planding-bottom-cta-btn">
+          <a class="btn btn-primary" data-no-turbolink="true" href="https://www.hellobonsai.com/users/sign_up?utm_source=paymentspage&amp;utm_medium=bottomprize&amp;refer=ec168b4a">CREATE AN ACCOUNT</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+    </div>
+    <footer class="footer">
+  <div class="wrapper">
+    <div class="row">
+      <div class="col-sm-4">
+        <div>
+          <div class="footer-link-header">
+            Products
+          </div>
+          <ul class="footer-links list-unstyled clearfix">
+            <li class="">
+              <a class="" data-toggle="modal" data-target="#modal-new-agreement" href="javascript:void(0)">CONTRACTS</a>
+            </li>
+            <li class="">
+              <a href="/payments">PAYMENTS</a>
+            </li>
+            <li class="">
+              <a href="/rates">RATES</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="footer-link-header">
+          Company
+        </div>
+        <ul class="footer-links list-unstyled clearfix">
+          <li class="">
+            <a href="/about">ABOUT</a>
+          </li>
+          <li class="">
+            <a target="_blank" href="/blog">BLOG</a>
+          </li>
+          <li class="">
+            <a href="/faq">FAQ</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-sm-4">
+        <div class="footer-link-header">
+          Contact
+        </div>
+        <ul class="footer-links footer-co-info list-unstyled clearfix">
+          <li>760 Market St., 5th Floor</li>
+          <li>San Francisco, CA 94102</li>
+          <li>
+            <a href="/cdn-cgi/l/email-protection#2450414549644c4148484b464b4a57454d0a474b49" target="_blank"><span class="footer-links-icons-email ion-email"></span></a>
+            <a href="https://www.twitter.com/bonsaiinc" target="_blank"><span class="footer-links-icons-twitter ion-social-twitter"></span></a>
+            <a data-toggle="modal" data-origin="Footer" href="#share-the-love"><i class="ion-heart footer-links-icons-love"></i></a>
+          </li>
+        </ul>
+
+      </div>
+    </div>
+    <div class="footer-legal-policies">
+      <div class="row">
+        <div class="col-sm-8">
+          <div class="disclaimer">
+            ©2016 Bonsai Inc. Bonsai is not a law firm, does not provide legal services or advice, and does not provide or participate in legal representation.&nbsp;&nbsp;
+            <a href="/terms">Legal</a>
+            <span class="footer-terms-separator ion-ios-minus-empty"></span>
+            <a href="/credits">Credits</a>
+          </div>
+        </div>
+        <!-- Mixpanel partner badge, do not remove -->
+        <a class="footer-mixpanel" href="https://mixpanel.com/f/partner" target="_blank">
+          <img src="//cdn.mxpnl.com/site_media/images/partner/badge_blue.png" alt="Mobile Analytics" />
+        </a>
+        <!-- End Mixpanel partner badge -->
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div class="modal fade" id="share-the-love" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="javascript:void(0)" class="modal-header-close" type="button" data-dismiss="modal" aria-label="Close">
+          <span class="ion-ios-close-outline"></span>
+        </a>
+        <h4 class="modal-title" id="myModalLabel">Share The Bonsai Love</h4>
+      </div>
+      <div class="modal-body modal-share-body">
+        <div>
+          <p>
+            We're passionate about helping the freelance community.<br>If you find Bonsai useful, please help us by sharing.
+          </p>
+        </div>
+        <br>
+        <div class="relative">
+          <label class="modal-send-link-copy-note" for="modal-send-link-copy-input">
+            Share This Link <span class="ion-arrow-right-b modal-send-link-copy-note-icon"></span>
+          </label>
+          <input type="text" class="form-control input-lg input-copier" id="modal-send-link-copy-input" value="https://www.hellobonsai.com/invite" readonly data-select-on-click />
+        </div>
+        <div class="modal-share-subtext">
+          <p>
+            or via
+          </p>
+        </div>
+        <div class="modal-share-links">
+          <!-- Generated via http://simplesharingbuttons.com/ -->
+          <ul class="share-buttons">
+            <li>
+              <a class="modal-share-link-icon" href="/cdn-cgi/l/email-protection#3c034f495e56595f48017f54595f57190e0c534948190e0c7e53524f5d551a5e535845016f5d5a59190e7f190e0c4d49555f57190e7f190e0c5d5258190e0c595d4fXy%20freelance%20contracts:%20https://www.hellobonsai.com/invite" target="_blank" title="Email"><i class="ion-ios-email-outline"></i></a>
+            </li>
+            <li>
+              <a class="modal-share-link-icon" href="https://twitter.com/intent/tweet?source=http%3A%2F%2Fwww.hellobonsai.com&text=Check%20out%20Bonsai%3A%20create%2C%20send%2C%20and%20e-sign%20freelance%20work%20contracts%20in%20minutes:%20https://www.hellobonsai.com/invite&via=bonsaiinc" target="_blank" title="Tweet"><i class="ion-social-twitter-outline"></i></a>
+            </li>
+            <li>
+              <a class="modal-share-link-icon" href="http://www.linkedin.com/shareArticle?mini=true&url=http%3A%2F%2Fwww.hellobonsai.com&title=Check%20out%20Bonsai&summary=Safe%2C%20quick%2C%20and%20easy%20freelance%20contracts&source=https://www.hellobonsai.com/invite" target="_blank" title="Share on LinkedIn"><i class="ion-social-linkedin-outline"></i></a>
+            </li>
+            <li>
+              <a class="modal-share-link-icon" href="https://www.facebook.com/sharer/sharer.php?u=https://www.hellobonsai.com/invite&t=Check%20out%20Bonsai" target="_blank" title="Share on Facebook"><i class="ion-social-facebook-outline"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+      <div class="modal fade" id="modal-new-agreement" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-new-agreement-dialog">
+    <div class="modal-content">
+      <div class="modal-header modal-new-agreement-header">
+        <a href="javascript:void(0)" class="modal-header-close" type="button" data-dismiss="modal" aria-label="Close">
+          <span class="ion-ios-close-outline"></span>
+        </a>
+        <h4>
+          What type of contract do you need?
+        </h4>
+      </div>
+      <div class="modal-body modal-new-agreement-body">
+        <div class="modal-new-agreement-types">
+
+          <a class="modal-new-agreement-type" id="agreement_start_development" href="/contracts/new/development">
+            <img srcset="/assets/developers-type-icon@2x-8ac4142e20bc23a7190c0291008725c0.png 2x" class="modal-new-agreement-type-icon" src="/assets/developers-type-icon-68e1a857ebdd0f60c4a23d7415d39cfb.png" alt="Developers type icon" />
+            Development
+</a>          <a class="modal-new-agreement-type" id="agreement_start_design" href="/contracts/new/design">
+            <img srcset="/assets/designers-type-icon@2x-5c311f5b84d2bf8fd134666fd54a3b04.png 2x" class="modal-new-agreement-type-icon" src="/assets/designers-type-icon-bb6b96536a3a87151c2c50ab97486e42.png" alt="Designers type icon" />
+            Design
+</a>          <a class="modal-new-agreement-type" id="agreement_start_design" href="/contracts/new/development_design">
+            <img srcset="/assets/developers-designers-type-icon@2x-bdb4f44253913db607a3a30ce53adba6.png 2x" class="modal-new-agreement-type-icon" src="/assets/developers-designers-type-icon-08981a3c17c04ed885d213bd972c41ef.png" alt="Developers designers type icon" />
+            Development & Design
+</a>
+        </div>
+      </div>
+      <div class="modal-footer modal-new-agreement-footer">
+        We support US, UK, Canadian, and Australian contracts.<br>Want something else? <a target="_blank" href="/new-contracts">Tell us!</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        <div class="modal fade" id="modal-create-account" tabindex="-1" role="dialog" aria-hidden="true" data-controller="SignupController">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <form class="clearfix" data-signup-form="true" id="new_user" action="/users" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="tvMW/N/f8xTkjjT815Rx6GgIA7iAFmH46HTABFh5d/Y1EcrUnKezebi0C8smYSs1RjZcMhTG36XCWW+Ai1jznQ==" />
+          <input value="/payments/all" type="hidden" name="user[redirect_to]" id="user_redirect_to" />
+        <div class="modal-header">
+          <a href="javascript:void(0)" class="modal-header-close" type="button" data-dismiss="modal" aria-label="Close">
+            <span class="ion-ios-close-outline"></span>
+          </a>
+          <h4 class="modal-title">
+            Create A Free Account
+          </h4>
+        </div>
+        <div class="modal-body paxl modal-create-account-body">
+          <div class="form-group">
+            <label>
+              Email
+            </label>
+            <input class="form-control" placeholder="your@email.com" data-modal-create-account-email="true" type="email" name="user[email]" id="user_email" />
+          </div>
+          <div class="form-group">
+            <div class="row">
+              <div class="col-xs-6 prs">
+                <label>
+                  First Name
+                </label>
+                <input class="form-control" placeholder="Jane" type="text" name="user[first_name]" id="user_first_name" />
+              </div>
+              <div class="col-xs-6 pls">
+                <label>
+                  Last Name
+                </label>
+                <input class="form-control" placeholder="Smith" type="text" value="" name="user[last_name]" id="user_last_name" />
+              </div>
+            </div>
+          </div>
+          <div class="relative">
+            <label for="user_password">Password</label>
+            <input autocomplete="off" class="form-control" placeholder="Password" type="password" name="user[password]" id="user_password" />
+            <div class="alert-inline alert-warning mtm" style="display: none;">
+              There's already a contract or payment associated with your email, so we're going to send you a link to set your password.
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer modal-create-account-footer">
+          <input type="submit" name="commit" value="Sign up" class="btn btn-md btn-primary btn-block" />
+        </div>
+        <div class="modal-create-account-legal">
+          By creating an account, you accept our <a target="_blank" href="/terms">Terms of Use</a>.
+        </div>
+</form>    </div>
+  </div>
+</div>
+
+    <div class="modal fade" id="modal-send-sample" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <form id="request_sample_agreement" class="form" action="/sample_agreements" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="CSO6WTUNs7Nsp1H6JEDz27wfhYP7NDRLIH5eB04XuSCKwWZxdnXz3jCdbs3VtakGkiHaCW/kihYKU/GDnTY9Sw==" />
+        <div class="modal-header">
+          <a href="javascript:void(0)" class="modal-header-close" type="button" data-dismiss="modal" aria-label="Close">
+            <span class="ion-ios-close-outline"></span>
+          </a>
+          <h4 class="modal-title" id="myModalLabel">Get a Sample Contract</h4>
+        </div>
+        <div class="modal-body modal-send-sample-body">
+          <div class="modal-send-sample-note">
+            Want to see what a drafted contract looks like?  Enter your email and we'll send one to you.
+          </div>
+          <div class="form-group">
+            <input type="text" name="email" id="email" value="" class="form-control" placeholder="Your email..." data-send-sample-email-input="true" />
+          </div>
+        </div>
+        <div class="modal-footer">
+          <input type="submit" name="commit" value="Get A Sample" class="btn btn-primary btn-block btn-lg" />
+        </div>
+</form>    </div>
+  </div>
+</div>
+
+
+
+
+
+    <div class="modal fade" id="modal-about-beta" tabindex="-1" role="dialog" aria-hidden="true" data-controller="InvoicesSendController">
+  <div class="modal-dialog modal-md">
+    <div class="modal-content">
+      <div class="modal-header">
+        <a href="javascript:void(0)" class="modal-header-close" type="button" data-dismiss="modal" aria-label="Close">
+          <span class="ion-ios-close-outline"></span>
+        </a>
+        <h4 class="modal-title">
+          You're On The Beta List!
+        </h4>
+      </div>
+      <div class="modal-body paxl">
+        <div class="modal-about-beta-text">
+          <p>
+            The beta program rewards our best users (you!) for giving us feedback.
+          </p>
+          <p>
+            You get early access to new features, plus <span class="highlight">you don't pay the $1 invoice fee</span>. We just ask that you send us feedback on how we can improve Bonsai. Sweet deal, right?
+          </p>
+<!--           <p>
+            You get early access to new features, plus <span class="highlight">don't pay the $1 invoice fee</span> &amp; <span class="highlight">don't pay any fees for ACH transfers</span>. We just ask that you send us feedback on how we can improve Bonsai. Sweet deal, right?
+          </p> -->
+          <p>
+            You can also <span class="highlight">help Bonsai by sharing it with other freelancers</span>. Use your referral link (<i>https://www.hellobonsai.com/invite</i>), and whoever signs up gets $5 credit.
+          </p>
+          <p>
+            Please feel free to <a href="#" onclick="Intercom('showNewMessage')", data-dismiss='modal', aria-hidden='true'>chat with us</a> or email us (<a href="/cdn-cgi/l/email-protection#412c2035350129242d2d2e232e2f3220286f222e2c61647f" target="_blank"><span class="__cf_email__" data-cfemail="026f637676426a676e6e6d606d6c71636b2c616d6f">[email&#160;protected]</span><script data-cfhash='f9e31' type="text/javascript">
+
+          </p>
+          <p>
+            Much love, Team Bonsai
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+</html>
